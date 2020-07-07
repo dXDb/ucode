@@ -1,0 +1,523 @@
+bgn 1 1
+sym 2 1 0 1
+ldc 11 10
+str 12 1 0
+ldp 6
+call 8 15
+proc 4 12
+sym 2 2 0 1
+sym 2 2 1 10
+sym 2 2 11 1
+ldc 11 0
+dup 19
+str 12 2 11
+str 12 2 0
+0
+lod 9 2 0
+lod 9 1 0
+lt 26
+fjp 36 102
+lod 9 2 0
+lda 10 2 1
+add 20
+lod 9 2 11
+sti 14
+lod 9 2 0
+lda 10 2 1
+add 20
+ldp 6
+lod 9 2 0
+push 7
+lda 10 2 1
+push 7
+call 8 114
+proc 4 3
+sym 2 2 0 1
+sym 2 2 1 1
+sym 2 2 2 1
+ldp 6
+lda 10 2 2
+push 7
+call 8 -3
+lod 9 2 2
+lod 9 2 0
+lod 9 2 1
+add 20
+ldi 13
+add 20
+str 12 2 2
+lod 9 2 2
+ret 5
+sti 14
+lod 9 2 11
+lod 9 2 0
+lda 10 2 1
+add 20
+ldi 13
+add 20
+str 12 2 11
+lod 9 2 0
+inc 17
+str 12 2 0
+ujp 34 38
+0
+lod 9 2 0
+lod 9 1 0
+lt 26
+fjp 36 102
+lod 9 2 0
+lda 10 2 1
+add 20
+lod 9 2 11
+sti 14
+lod 9 2 0
+lda 10 2 1
+add 20
+ldp 6
+lod 9 2 0
+push 7
+lda 10 2 1
+push 7
+call 8 114
+proc 4 3
+sym 2 2 0 1
+sym 2 2 1 1
+sym 2 2 2 1
+ldp 6
+lda 10 2 2
+push 7
+call 8 -3
+lod 9 2 2
+lod 9 2 0
+lod 9 2 1
+add 20
+ldi 13
+add 20
+str 12 2 2
+lod 9 2 2
+ret 5
+sti 14
+lod 9 2 11
+lod 9 2 0
+lda 10 2 1
+add 20
+ldi 13
+add 20
+str 12 2 11
+lod 9 2 0
+inc 17
+str 12 2 0
+ujp 34 38
+0
+lod 9 2 0
+lod 9 1 0
+lt 26
+fjp 36 102
+lod 9 2 0
+lda 10 2 1
+add 20
+lod 9 2 11
+sti 14
+lod 9 2 0
+lda 10 2 1
+add 20
+ldp 6
+lod 9 2 0
+push 7
+lda 10 2 1
+push 7
+call 8 114
+proc 4 3
+sym 2 2 0 1
+sym 2 2 1 1
+sym 2 2 2 1
+ldp 6
+lda 10 2 2
+push 7
+call 8 -3
+lod 9 2 2
+lod 9 2 0
+lod 9 2 1
+add 20
+ldi 13
+add 20
+str 12 2 2
+lod 9 2 2
+ret 5
+sti 14
+lod 9 2 11
+lod 9 2 0
+lda 10 2 1
+add 20
+ldi 13
+add 20
+str 12 2 11
+lod 9 2 0
+inc 17
+str 12 2 0
+ujp 34 38
+0
+lod 9 2 0
+lod 9 1 0
+lt 26
+fjp 36 102
+lod 9 2 0
+lda 10 2 1
+add 20
+lod 9 2 11
+sti 14
+lod 9 2 0
+lda 10 2 1
+add 20
+ldp 6
+lod 9 2 0
+push 7
+lda 10 2 1
+push 7
+call 8 114
+proc 4 3
+sym 2 2 0 1
+sym 2 2 1 1
+sym 2 2 2 1
+ldp 6
+lda 10 2 2
+push 7
+call 8 -3
+lod 9 2 2
+lod 9 2 0
+lod 9 2 1
+add 20
+ldi 13
+add 20
+str 12 2 2
+lod 9 2 2
+ret 5
+sti 14
+lod 9 2 11
+lod 9 2 0
+lda 10 2 1
+add 20
+ldi 13
+add 20
+str 12 2 11
+lod 9 2 0
+inc 17
+str 12 2 0
+ujp 34 38
+0
+lod 9 2 0
+lod 9 1 0
+lt 26
+fjp 36 102
+lod 9 2 0
+lda 10 2 1
+add 20
+lod 9 2 11
+sti 14
+lod 9 2 0
+lda 10 2 1
+add 20
+ldp 6
+lod 9 2 0
+push 7
+lda 10 2 1
+push 7
+call 8 114
+proc 4 3
+sym 2 2 0 1
+sym 2 2 1 1
+sym 2 2 2 1
+ldp 6
+lda 10 2 2
+push 7
+call 8 -3
+lod 9 2 2
+lod 9 2 0
+lod 9 2 1
+add 20
+ldi 13
+add 20
+str 12 2 2
+lod 9 2 2
+ret 5
+sti 14
+lod 9 2 11
+lod 9 2 0
+lda 10 2 1
+add 20
+ldi 13
+add 20
+str 12 2 11
+lod 9 2 0
+inc 17
+str 12 2 0
+ujp 34 38
+0
+lod 9 2 0
+lod 9 1 0
+lt 26
+fjp 36 102
+lod 9 2 0
+lda 10 2 1
+add 20
+lod 9 2 11
+sti 14
+lod 9 2 0
+lda 10 2 1
+add 20
+ldp 6
+lod 9 2 0
+push 7
+lda 10 2 1
+push 7
+call 8 114
+proc 4 3
+sym 2 2 0 1
+sym 2 2 1 1
+sym 2 2 2 1
+ldp 6
+lda 10 2 2
+push 7
+call 8 -3
+lod 9 2 2
+lod 9 2 0
+lod 9 2 1
+add 20
+ldi 13
+add 20
+str 12 2 2
+lod 9 2 2
+ret 5
+sti 14
+lod 9 2 11
+lod 9 2 0
+lda 10 2 1
+add 20
+ldi 13
+add 20
+str 12 2 11
+lod 9 2 0
+inc 17
+str 12 2 0
+ujp 34 38
+0
+lod 9 2 0
+lod 9 1 0
+lt 26
+fjp 36 102
+lod 9 2 0
+lda 10 2 1
+add 20
+lod 9 2 11
+sti 14
+lod 9 2 0
+lda 10 2 1
+add 20
+ldp 6
+lod 9 2 0
+push 7
+lda 10 2 1
+push 7
+call 8 114
+proc 4 3
+sym 2 2 0 1
+sym 2 2 1 1
+sym 2 2 2 1
+ldp 6
+lda 10 2 2
+push 7
+call 8 -3
+lod 9 2 2
+lod 9 2 0
+lod 9 2 1
+add 20
+ldi 13
+add 20
+str 12 2 2
+lod 9 2 2
+ret 5
+sti 14
+lod 9 2 11
+lod 9 2 0
+lda 10 2 1
+add 20
+ldi 13
+add 20
+str 12 2 11
+lod 9 2 0
+inc 17
+str 12 2 0
+ujp 34 38
+0
+lod 9 2 0
+lod 9 1 0
+lt 26
+fjp 36 102
+lod 9 2 0
+lda 10 2 1
+add 20
+lod 9 2 11
+sti 14
+lod 9 2 0
+lda 10 2 1
+add 20
+ldp 6
+lod 9 2 0
+push 7
+lda 10 2 1
+push 7
+call 8 114
+proc 4 3
+sym 2 2 0 1
+sym 2 2 1 1
+sym 2 2 2 1
+ldp 6
+lda 10 2 2
+push 7
+call 8 -3
+lod 9 2 2
+lod 9 2 0
+lod 9 2 1
+add 20
+ldi 13
+add 20
+str 12 2 2
+lod 9 2 2
+ret 5
+sti 14
+lod 9 2 11
+lod 9 2 0
+lda 10 2 1
+add 20
+ldi 13
+add 20
+str 12 2 11
+lod 9 2 0
+inc 17
+str 12 2 0
+ujp 34 38
+0
+lod 9 2 0
+lod 9 1 0
+lt 26
+fjp 36 102
+lod 9 2 0
+lda 10 2 1
+add 20
+lod 9 2 11
+sti 14
+lod 9 2 0
+lda 10 2 1
+add 20
+ldp 6
+lod 9 2 0
+push 7
+lda 10 2 1
+push 7
+call 8 114
+proc 4 3
+sym 2 2 0 1
+sym 2 2 1 1
+sym 2 2 2 1
+ldp 6
+lda 10 2 2
+push 7
+call 8 -3
+lod 9 2 2
+lod 9 2 0
+lod 9 2 1
+add 20
+ldi 13
+add 20
+str 12 2 2
+lod 9 2 2
+ret 5
+sti 14
+lod 9 2 11
+lod 9 2 0
+lda 10 2 1
+add 20
+ldi 13
+add 20
+str 12 2 11
+lod 9 2 0
+inc 17
+str 12 2 0
+ujp 34 38
+0
+lod 9 2 0
+lod 9 1 0
+lt 26
+fjp 36 102
+lod 9 2 0
+lda 10 2 1
+add 20
+lod 9 2 11
+sti 14
+lod 9 2 0
+lda 10 2 1
+add 20
+ldp 6
+lod 9 2 0
+push 7
+lda 10 2 1
+push 7
+call 8 114
+proc 4 3
+sym 2 2 0 1
+sym 2 2 1 1
+sym 2 2 2 1
+ldp 6
+lda 10 2 2
+push 7
+call 8 -3
+lod 9 2 2
+lod 9 2 0
+lod 9 2 1
+add 20
+ldi 13
+add 20
+str 12 2 2
+lod 9 2 2
+ret 5
+sti 14
+lod 9 2 11
+lod 9 2 0
+lda 10 2 1
+add 20
+ldi 13
+add 20
+str 12 2 11
+lod 9 2 0
+inc 17
+str 12 2 0
+ujp 34 38
+0
+lod 9 2 0
+lod 9 1 0
+lt 26
+fjp 36 102
+0
+ldp 6
+lod 9 2 11
+push 7
+call 8 -2
+ldp 6
+call 8 -1
+ret 5
+end 3
+
+
+
+
+------------------------------
+result = 300202 
+
+------------------------------
+line = 508
+------------------------------
+label 1번째 라벨 위치 : 15
+label 2번째 라벨 위치 : 38
+label 3번째 라벨 위치 : 102
+label 4번째 라벨 위치 : 114
+------------------------------

@@ -1,0 +1,41 @@
+           bgn 0
+           ldp
+           call main
+           end
+factorial  proc 1
+           sym 2 0 1      % n
+           lod 2 0
+           ldc 1
+           eq
+           fjp $$0
+           ldc 1
+           ret
+$$0        nop            % else part
+           lod 2 0
+           ldp 
+           lod 2 0
+           ldc 1
+           sub
+           push
+           call factorial
+           mult
+           ret
+main       proc 2
+           sym 2 0 1      % n
+           sym 2 1 1      % f
+           ldp
+           lda 2 0
+           push
+           call read
+           ldp
+           lod 2 0
+           push
+           call factorial
+           str 2 1
+           ldp 
+           lod 2 1
+           push
+           call write
+           ldp
+           call lf
+           ret

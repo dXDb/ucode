@@ -1,0 +1,59 @@
+           bgn 0
+           ldp
+           call main
+           end
+main       proc 4
+           sym 2 0 1    % org
+           sym 2 1 1    % rev
+           sym 2 2 1    % i
+           sym 2 3 1    % j
+           ldp
+           lda 2 0
+           push
+           call read
+           lod 2 0
+           ldc 0
+           lt
+           fjp $$0
+           ldc -1
+           lod 2 0
+           mult
+           str 2 0
+$$0        nop
+           lod 2 0
+           str 2 2
+           ldc 0
+           str 2 1
+$$1        nop          % begin of while
+           lod 2 2
+           ldc 0
+           ne
+           fjp $$2
+           lod 2 2
+           ldc 10
+           mod
+           str 2 3
+           lod 2 1
+           ldc 10
+           mult
+           lod 2 3
+           add
+           str 2 1
+           lod 2 2
+           ldc 10
+           div
+           str 2 2
+           ujp $$1
+$$2        nop          % end of while
+           lod 2 1
+           lod 2 0
+           eq
+           fjp $$3
+           ldp
+           lod 2 0
+           push
+           call write
+$$3        nop
+           ldp
+           call lf
+           ret

@@ -1,0 +1,66 @@
+main       proc 5
+           sym 2 0 1      % i
+           sym 2 1 1      % j
+           sym 2 2 1      % k
+           sym 2 3 1      % rem
+           sym 2 4 1      % prime
+           ldc 2
+           str 2 0
+$$0        nop            % begin of outer while
+           lod 2 0
+           lod 1 0
+           le
+           fjp $$1
+           ldc 1
+           str 2 4
+           lod 2 0
+           ldc 2
+           div
+           str 2 2
+           ldc 2
+           str 2 1
+$$2        nop            % begin of inner while
+           lod 2 1
+           lod 2 2
+           le
+           fjp $$3
+           lod 2 0
+           lod 2 1
+           mod
+           str 2 3
+           lod 2 3        % if 
+           ldc 0
+           eq
+           fjp $$4
+           ldc 0
+           str 2 4
+$$4        nop
+           lod 2 1
+           inc
+           str 2 1
+           ujp $$2
+$$3        nop            % end of inner while
+           lod 2 4        % if
+           ldc 1
+           eq
+           fjp $$5
+           ldp
+           lod 2 0
+           push
+           call write
+$$5        nop
+           lod 2 0
+           inc
+           str 2 0
+           ujp $$0        % end of outer while
+$$1        nop
+           ldp
+           call lf
+           ret
+           bgn 1
+           sym 1 0 1
+           ldc 100
+           str 1 0
+           ldp
+           call main
+           end

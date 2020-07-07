@@ -1,0 +1,71 @@
+           bgn 1
+           sym 1 0 1    % MAX
+           ldc 10
+           str 1 0
+           ldp
+           call main
+           end
+main       proc 12
+           sym 2 0 1    % i
+           sym 2 1 10   % a[10]
+           sym 2 11 1   % j
+           ldc 0
+           dup
+           str 2 11
+           str 2 0
+$$0        nop          % begin of while
+           lod 2 0
+           lod 1 0
+           lt
+           fjp $$1
+           lod 2 0
+           lda 2 1
+           add
+           lod 2 11
+           sti
+           lod 2 0
+           lda 2 1
+           add
+           ldp
+           lod 2 0
+           push
+           lda 2 1
+           push
+           call sub
+           sti
+           lod 2 11
+           lod 2 0
+           lda 2 1
+           add
+           ldi
+           add
+           str 2 11
+           lod 2 0
+           inc
+           str 2 0
+           ujp $$0
+$$1        nop          % end of while
+           ldp
+           lod 2 11
+           push
+           call write
+           ldp
+           call lf
+           ret
+sub        proc 3
+           sym 2 0 1    % i
+           sym 2 1 1    % a
+           sym 2 2 1    % j
+           ldp
+           lda 2 2
+           push
+           call read
+           lod 2 2
+           lod 2 0
+           lod 2 1
+           add
+           ldi
+           add
+           str 2 2
+           lod 2 2
+           ret
